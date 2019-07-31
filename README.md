@@ -31,7 +31,7 @@ This file contains the image link for each dog used for the WeRateDogs run throu
   p3
   p3_conf
   p3_dog
-
+</ul>
 
 # SOLVE
 FULL PANDAS ANALYSIS
