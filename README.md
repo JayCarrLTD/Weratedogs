@@ -10,7 +10,7 @@ The first question weseek to answer is finding out which dogs are considered the
 The second part of this project examines if it's possible for the system to successfully predict the breed of a dog from a picture of the animal. 
 
 # Understand
-The purpose of this project is more for fun than anything. The idea is to see which dogs and dog breeds are the highest rated of the group. The project analyzes data from three seperate datasets
+The purpose of this project is more for fun than anything. The idea is to see which dogs and dog breeds are the highest rated of the group. 
 
 # EXPLORE
 This project contains three main datasets that was used to complete this project.
