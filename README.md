@@ -22,12 +22,14 @@ This project contains three main datasets that was used to complete this project
 
 <b>Image Predictions File</b>
 This file contains the image link for each dog used for the WeRateDogs run through a neural network that can claissify breeds of dogs. 
-<ul>tweet_id</ul>
- <ul> jpg_url</ul>
- <ul> img_num</ul>
- <ul> p1</ul>
-  <ul>p1_conf</ul>
-  <ul>p1_dog</ul>
+<ul>
+ <li>tweet_id</li>
+ <li>jpg_url</li>
+ <li> img_num</li>
+</ul>
+ <li> p1
+ <li>p1_conf
+ <li> p1_dog</ul>
  <ul> p2</ul>
  <ul> p2_conf</ul>
   <ul>p2_dog</ul>
