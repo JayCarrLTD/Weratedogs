@@ -12,10 +12,10 @@ The second part of this project examines if it's possible for the system to succ
 # UNDERSTAND
 The purpose of this project is more for fun than anything. The idea is to see which dogs and dog breeds are the highest rated of the group. 
 
-# EXPLRE
+# EXPLORE
 This project contains three main datasets that was used to complete this project.
 
-<b>Tweet Archive</b>
+<b>Tweet Archive</b> - The archive containing all the tweet data for the 
 
 
 <b>Additional Data Via Twitter API</b>
