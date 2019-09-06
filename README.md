@@ -9,10 +9,10 @@ The first question weseek to answer is finding out which dogs are considered the
 
 The second part of this project examines if it's possible for the system to successfully predict the breed of a dog from a picture of the animal. 
 
-# Understand
+# UNDERSTAND
 The purpose of this project is more for fun than anything. The idea is to see which dogs and dog breeds are the highest rated of the group. 
 
-# EXPLORE
+# EXPLRE
 This project contains three main datasets that was used to complete this project.
 
 <b>Tweet Archive</b>
@@ -23,18 +23,18 @@ This project contains three main datasets that was used to complete this project
 <b>Image Predictions File</b>
 This file contains the image link for each dog used for the WeRateDogs run through a neural network that can claissify breeds of dogs. 
 <ul>
-<li>tweet_id</li>
-<li>jpg_url</li>
-<li> img_num</li>
-<li> p1</li>
-<li>p1_conf</li>
-<li> p1_dog</li>
-<li>p2</li>
-<li>p2_conf</li>
-<li>p2_dog</li>
-<li>p3</li>
-<li>p3_conf</li>
-<li>p3_dog</li> 
+<li>tweet_id - tweet identification number</li>
+<li>jpg_url - the url for the tweet image</li>
+<li> img_num - the image number for the tweet</li>
+<li> p1 - predicted dog breed </li>
+<li>p1_conf - confidence of predicted dog</li>
+<li> p1_dog - the actual dog breed</li>
+<li>p2 - the second predicted dog breed</li>
+<li>p2_conf - confidence of the predicted dog</li>
+<li>p2_dog - the actual dog breed</li>
+<li>p3 - the third dog breed prediction</li>
+<li>p3_conf - confidence of the third dog breed</li>
+<li>p3_dog - the actual dog breed</li> 
 </ul>
 
 # SOLVE
