@@ -24,18 +24,18 @@ This project contains three main datasets that was used to complete this project
 <b>Image Predictions File</b>
 This file contains the image link for each dog used for the WeRateDogs run through a neural network that can claissify breeds of dogs. 
 <ul>
-<li>tweet_id - tweet identification number</li>
-<li>jpg_url - the url for the tweet image</li>
-<li> img_num - the image number for the tweet</li>
-<li> p1 - predicted dog breed </li>
-<li>p1_conf - confidence of predicted dog</li>
-<li> p1_dog - the actual dog breed</li>
-<li>p2 - the second predicted dog breed</li>
-<li>p2_conf - confidence of the predicted dog</li>
-<li>p2_dog - the actual dog breed</li>
-<li>p3 - the third dog breed prediction</li>
-<li>p3_conf - confidence of the third dog breed</li>
-<li>p3_dog - the actual dog breed</li> 
+  <li><b>tweet_id</b> - tweet identification number</li>
+<li><b>jpg_url</b> - the url for the tweet image</li>
+<li> <b>img_num</b> - the image number for the tweet</li>
+<li> <b>p1</b> - predicted dog breed </li>
+<li><b>p1_conf</b> - confidence of predicted dog</li>
+<li> <b>p1_dog</b> - the actual dog breed</li>
+<li><b>p2</b> - the second predicted dog breed</li>
+<li><b>p2_conf</b> - confidence of the predicted dog</li>
+<li><b>p2_dog</b> - the actual dog breed</li>
+<li><b>p3</b> - the third dog breed prediction</li>
+<li><b>p3_conf</b> - confidence of the third dog breed</li>
+<li><b>p3_dog</b> - the actual dog breed</li> 
 </ul>
 
 # SOLVE
