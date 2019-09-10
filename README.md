@@ -25,38 +25,40 @@ This project contains three main datasets that was used to complete this project
 
 <b>Image Predictions File</b>
 This file contains the image link for each dog used for the WeRateDogs run through a neural network that can claissify breeds of dogs. 
-
-tweet_id: The unique identififer for each tweet in the tweet table for we rate dogs dataset
-in_reply_status_id: The unique identifer for the tweet reply
-in_reply_to_user_id: The unique idenfier for the user who posted a reply
-timestamp: The date and time the tweet was posted
-source: The platform that the tweet was posted from
-text: The text contained in the tweet
-retweeted_status_id: The unique identifer for the retweeted post
-retweeted_status_user_id: The unique user if for the retweeted post
-retweeted_staus_timestamp: The time stamp of the retweet
-expanded_urls: The photo URL
-rating_numerator: The posted score for the dog
-rating_denominator: The denominator for the highest value
-jpg_url The url for the image
-img_num The number the image is
-name: The name of the dog
-doggo: The type of dog
-floofer: The type of dog
-pupper: The type of dog
-puppo: The type of dog
-p1: The algorithm's #1 prediction for the image in the tweet
-p1_conf: How confident the algorithm is in its #1 prediction
-p1_dog: Whether or not the #1 prediction is a breed of dog
-p2: The algorithm's second most likely prediction
-p2_conf: How confident the algorithm is in its #2 prediction
-p2_dog: Whether or not the #2 prediction is a breed of dog
-p3: The algorithm's third most likely prediction
-p3_conf: How confident the algorithm is in its #3 prediction
-p3_dog: Whether or not the #3 prediction is a breed of dog
-Unnamed: 0: Error column
-favorites: Number of times the tweet was favorited
-retweet_count: Number of times the tweet was retweeted
+<ul>
+  <li>tweet_id: The unique identififer for each tweet in the tweet table for we rate dogs dataset</li>
+<li>in_reply_status_id: The unique identifer for the tweet reply</li>
+<li>in_reply_to_user_id: The unique idenfier for the user who posted a reply</li>
+<li>timestamp: The date and time the tweet was posted</li>
+<li>source: The platform that the tweet was posted from</li>
+<li>text: The text contained in the tweet</li>
+<li>retweeted_status_id: The unique identifer for the retweeted post</li>
+<li>retweeted_status_user_id: The unique user if for the retweeted post</li>
+<li>retweeted_staus_timestamp: The time stamp of the retweet</li>
+<li>expanded_urls: The photo URL</li>
+<li>rating_numerator: The posted score for the dog</li>
+<li>rating_denominator: The denominator for the highest value</li>
+<li>jpg_url The url for the image</li>
+<li>img_num The number the image is</li>
+<li>name: The name of the dog</li>
+<li>doggo: The type of dog</li>
+<li>floofer: The type of dog</li>
+<li>pupper: The type of dog</li>
+<li>puppo: The type of dog</li>
+<li>p1: The algorithm's #1 prediction for the image in the tweet</li>
+<li>p1_conf: How confident the algorithm is in its #1 prediction</li>
+<li>p1_dog: Whether or not the #1 prediction is a breed of dog</li>
+<li>p2: The algorithm's second most likely prediction</li>
+<li>p2_conf: How confident the algorithm is in its #2 prediction</li>
+<li>p2_dog: Whether or not the #2 prediction is a breed of dog</li>
+<li>p3: The algorithm's third most likely prediction</li>
+<li>p3_conf: How confident the algorithm is in its #3 prediction</li>
+<li>p3_dog: Whether or not the #3 prediction is a breed of dog</li>
+<li>Unnamed: 0: Error column</li>
+<li>favorites: Number of times the tweet was favorited</li>
+<li>retweet_count: Number of times the tweet was retweeted</li>
+  
+ </ul>
 
 # SOLVE
 FULL PANDAS ANALYSIS
