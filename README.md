@@ -25,20 +25,38 @@ This project contains three main datasets that was used to complete this project
 
 <b>Image Predictions File</b>
 This file contains the image link for each dog used for the WeRateDogs run through a neural network that can claissify breeds of dogs. 
-<ul>
-  <li><b>tweet_id</b> - tweet identification number</li>
-<li><b>jpg_url</b> - the url for the tweet image</li>
-<li> <b>img_num</b> - the image number for the tweet</li>
-<li> <b>p1</b> - predicted dog breed </li>
-<li><b>p1_conf</b> - confidence of predicted dog</li>
-<li> <b>p1_dog</b> - the actual dog breed</li>
-<li><b>p2</b> - the second predicted dog breed</li>
-<li><b>p2_conf</b> - confidence of the predicted dog</li>
-<li><b>p2_dog</b> - the actual dog breed</li>
-<li><b>p3</b> - the third dog breed prediction</li>
-<li><b>p3_conf</b> - confidence of the third dog breed</li>
-<li><b>p3_dog</b> - the actual dog breed</li> 
-</ul>
+
+tweet_id: The unique identififer for each tweet in the tweet table for we rate dogs dataset
+in_reply_status_id: The unique identifer for the tweet reply
+in_reply_to_user_id: The unique idenfier for the user who posted a reply
+timestamp: The date and time the tweet was posted
+source: The platform that the tweet was posted from
+text: The text contained in the tweet
+retweeted_status_id: The unique identifer for the retweeted post
+retweeted_status_user_id: The unique user if for the retweeted post
+retweeted_staus_timestamp: The time stamp of the retweet
+expanded_urls: The photo URL
+rating_numerator: The posted score for the dog
+rating_denominator: The denominator for the highest value
+jpg_url The url for the image
+img_num The number the image is
+name: The name of the dog
+doggo: The type of dog
+floofer: The type of dog
+pupper: The type of dog
+puppo: The type of dog
+p1: The algorithm's #1 prediction for the image in the tweet
+p1_conf: How confident the algorithm is in its #1 prediction
+p1_dog: Whether or not the #1 prediction is a breed of dog
+p2: The algorithm's second most likely prediction
+p2_conf: How confident the algorithm is in its #2 prediction
+p2_dog: Whether or not the #2 prediction is a breed of dog
+p3: The algorithm's third most likely prediction
+p3_conf: How confident the algorithm is in its #3 prediction
+p3_dog: Whether or not the #3 prediction is a breed of dog
+Unnamed: 0: Error column
+favorites: Number of times the tweet was favorited
+retweet_count: Number of times the tweet was retweeted
 
 # SOLVE
 FULL PANDAS ANALYSIS
