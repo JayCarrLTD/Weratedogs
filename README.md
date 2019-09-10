@@ -8,7 +8,7 @@ Which breed of dog is the highest and most rated dog on the weratedogs twitter p
 Is it possible to determine the type of breed of a dog from a picture?
 
 # UNDERSTAND
-The data that was obtained from the @dog_rates twitter account will be the main source of infromation. The data will be used to ultimatley figure out which breeds are rated the highest. 
+The data that was obtained from the @dog_rates twitter account will be the main source of infromation. The data will be used to ultimatley figure out which breeds are rated the highest.
 
 # EXPLORE
 This project contains three main datasets that was used to complete this project.
