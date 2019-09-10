@@ -1,11 +1,7 @@
 # Weratedogs Data Analysis Project
 
 ## Introduction
-This project is wrangles, analyzes, and creates visulization for the the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates user submitted pictures of people's dogs along with a humorous comment about the dog. 
-
-
-## Overview
-This project was to developed in order to analyze the data that was obtained from the @dog_rates twitter account. The project utlized python for the pupose of exploring, cleaning, and creating visualizations. Each subsection of the analaysis is broken up into three seperate sections: Define, Code, and Test. 
+This project is wrangles, analyzes, and creates visulization for the the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates user submitted pictures of people's dogs along with a humorous comment about the dog. This project was to developed in order to analyze the data that was obtained from the @dog_rates twitter account. The project utlized python for the pupose of exploring, cleaning, and creating visualizations. Each subsection of the analaysis is broken up into three seperate sections: Define, Code, and Test. 
 
 # QUESTION
 Which breed of dog is the highest and most rated dog on the weratedogs twitter profile?
