@@ -61,7 +61,7 @@ This file contains the image link for each dog used for the WeRateDogs run throu
  </ul>
 
 # SOLVE
-FULL PANDAS ANALYSIS
+<a href="https://github.com/JayCarrLTD/Weratedogs/blob/master/Weratedogs_analysis.ipynb">FULL PANDAS ANALYSIS</a>
 
 # TRANSLATE
-SUMMARY SLIDE DECK
+<a href="https://github.com/JayCarrLTD/Weratedogs/blob/master/action_report.pdf">ACTION REPORT</a>
