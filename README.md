@@ -8,7 +8,7 @@ WeRateDogs downloaded their Twitter archive which contains basic tweet data (twe
 
 # INSALLATION
 
-This program runs on Jupyter Notebook. Installation instructions can be found here: <a href ="https://jupyter.org/install.html">Link,/a>
+This program runs on Jupyter Notebook. Installation instructions can be found here: <a href ="https://jupyter.org/install.html">Link</a>
 The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
 
 
