@@ -7,7 +7,10 @@ This project wrangles, analyzes, and creates visualization for the the tweet arc
 WeRateDogs downloaded their Twitter archive which contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017
 
 # INSALLATION
+
+This program runs on Jupyter Notebook. Installation instructions can be found here: <a href ="https://jupyter.org/install.html">Link,/a>
 The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
+
 ``
 pandas
 NumPy
