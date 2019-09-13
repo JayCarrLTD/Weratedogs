@@ -11,14 +11,13 @@ WeRateDogs downloaded their Twitter archive which contains basic tweet data (twe
 This program runs on Jupyter Notebook. Installation instructions can be found here: <a href ="https://jupyter.org/install.html">Link,/a>
 The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
 
-``
+
 pandas
 NumPy
 requests
 tweepy
 json
 
-``
 # QUESTION
 Which breed of dog is the highest and most rated dog on the weratedogs twitter profile?<br><br>
 Is it possible to determine the type of breed of a dog from a picture?
