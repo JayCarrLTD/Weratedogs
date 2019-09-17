@@ -11,19 +11,20 @@ WeRateDogs downloaded their Twitter archive which contains basic tweet data (twe
 This program runs on Jupyter Notebook. Installation instructions can be found here: <a href ="https://jupyter.org/install.html">Link</a>
 The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
 
-
+```
 pandas
 NumPy
 requests
 tweepy
 json
 
+```
 # QUESTION
-Which breed of dog is the highest and most rated dog on the weratedogs twitter profile?<br><br>
-Is it possible to determine the type of breed of a dog from a picture?
+### Situation
+An ad agency wants to perform a photoshoot for some of the cutest dogs on the internet. The agency is using the data obtained from the Weratedogs dataset to analyze and see which dog breeds are highest and most rated. They also want to feature the number one dog in their magazine.
 
 # UNDERSTAND
-The data that was obtained from the @dog_rates twitter account will be the main source of infromation. The data will be used to ultimatley figure out which breeds are rated the highest.
+The data that was obtained from the @dog_rates twitter account will be the main source of infromation. In order to answer the question, we will first need to clean the data before analaysis. 
 
 # EXPLORE
 This project contains three main datasets that was used to complete this project.
