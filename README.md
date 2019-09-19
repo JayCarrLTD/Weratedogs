@@ -6,25 +6,37 @@ This project wrangles, analyzes, and creates visualization for the the tweet arc
 # THE DATA
 WeRateDogs downloaded their Twitter archive which contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017
 
-# INSALLATION
+# INTRODUCTION
 
 This program runs on Jupyter Notebook. Installation instructions can be found here: <a href ="https://jupyter.org/install.html">Link</a>
 The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
 
-```
-pandas
-NumPy
-requests
-tweepy
-json
+Tools used: Python, NumPy, Pandas, Matplotlib, Jupyter Notebook, Excel
 
-```
+
 # QUESTION
+
 ### Situation
 An ad agency wants to perform a photoshoot for some of the cutest dogs on the internet. The agency is using the data obtained from the Weratedogs dataset to analyze and see which dog breeds are highest and most rated. They also want to feature the number one dog in their magazine.
 
 # UNDERSTAND
 The data that was obtained from the @dog_rates twitter account will be the main source of infromation. In order to answer the question, we will first need to clean the data before analaysis. 
+
+Gather. I gathered data from three sources:
+
+The Twitter archive #WeRateDogs, a csv file that contains the tweet, rating, dog name, and dog 'stage' in life (such as puppy).
+
+An 'image prediction' file, or what breed of dog is in each tweet, according to a neural network.  I downloaded the image prediction file programmatically from Udacity's servers using the Requests library.
+
+Twitter's API to gather retweet count and favorite count, two columns missing in the Twitter archive. I queried the API for each tweet's JSON data using Python's Tweepy library.
+
+Assess. I assessed the data based on quality and tidiness. 
+
+Low quality (‘dirty’) data has content issues such as missing, invalid, inaccurate, and inconsistent data. I assessed removing unnecessary columns, converting data types, making dog names title case, removing entries that were not really dogs, and removing outliers.
+
+Untidy (‘messy’) data has structural issues. I assessed gathering dog stages from multiple columns into one, creating a ‘prediction’ column (Dog, Maybe Dog, Not Dog), and combining the three datasets into one.
+
+Clean. I converted each assessment observations into action items. Each item was defined, coded, and tested to ensure the problem was fixed. I first addressed missing data, then structural issues, then quality issues. For example, there were lots of ‘rating’ outliers. Dogs were supposed to be rated from 1-10, but many were well above 10. I converted the ones I could to a ‘10’ scale, such as ‘165 out of 150’ became an 11 rating.
 
 # EXPLORE
 This project contains three main datasets that was used to complete this project.
@@ -73,7 +85,7 @@ This file contains the image link for each dog used for the WeRateDogs run throu
  </ul>
 
 # SOLVE
-<a href="https://github.com/JayCarrLTD/Weratedogs/blob/master/Weratedogs_analysis.ipynb">FULL PANDAS ANALYSIS</a>
+<a href="https://nbviewer.jupyter.org/github/JayCarrLTD/Weratedogs/blob/master/Weratedogs_analysis.ipynb">FULL PANDAS ANALYSIS</a>
 
 # TRANSLATE
-<a href="https://github.com/JayCarrLTD/Weratedogs/blob/master/action_report.pdf">ACTION REPORT</a>
+<a href="https://nbviewer.jupyter.org/github.com/JayCarrLTD/Weratedogs/blob/master/action_report.pdf">ACTION REPORT</a>
