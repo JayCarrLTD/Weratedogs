@@ -90,4 +90,4 @@ This file contains the image link for each dog used for the WeRateDogs run throu
 <a href="https://nbviewer.jupyter.org/github/JayCarrLTD/weratedogs/blob/master/Datafiles/Weratedogs_analysis.ipynb">FULL PANDAS ANALYSIS</a>
 
 # TRANSLATE
-<a href="https://nbviewer.jupyter.org/github.com/JayCarrLTD/Weratedogs/blob/master/action_report.pdf">ACTION REPORT</a>
+<a href="https://nbviewer.jupyter.org/github/JayCarrLTD/weratedogs/blob/master/action_report.pdf">ACTION REPORT</a>
