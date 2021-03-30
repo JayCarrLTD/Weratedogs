@@ -91,4 +91,5 @@ This file contains the image link for each dog used for the WeRateDogs run throu
 
 # TRANSLATE
 Below is the visual analysis for the project.
+
 <a href="https://nbviewer.jupyter.org/github/JayCarrLTD/weratedogs/blob/master/action_report.pdf">ACTION REPORT</a>
