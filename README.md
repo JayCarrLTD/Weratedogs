@@ -3,7 +3,7 @@ Click to Open Project
 ### <a href="https://nbviewer.jupyter.org/github/JayCarrLTD/weratedogs/blob/master/Datafiles/Weratedogs_analysis.ipynb">Jupyter Notebook File</a>
 
 ## Introduction
-This project wrangles, analyzes, and creates visualization for the the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates user submitted pictures of people's dogs along with a humorous comment about the dog. This project was to developed in order to analyze the data that was obtained from the @dog_rates twitter account. The project utlized python for the pupose of exploring, cleaning, and creating visualizations. Each subsection of the analaysis is broken up into three seperate sections: Define, Code, and Test. 
+This project wrangles, analyzes, and creates visualization for the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates user submitted pictures of people's dogs along with a humorous comment about the dog. This project was to developed in order to analyze the data that was obtained from the @dog_rates twitter account. The project utlized python for the pupose of exploring, cleaning, and creating visualizations. Each subsection of the analaysis is broken up into three seperate sections: Define, Code, and Test. 
 
 # THE DATA
 WeRateDogs downloaded their Twitter archive which contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017
